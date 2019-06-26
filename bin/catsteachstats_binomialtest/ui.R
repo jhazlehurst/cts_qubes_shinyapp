@@ -29,10 +29,10 @@ fluidPage(
                            h6("paw-value ="),
                            h4(textOutput("test")),
                            h5("A paw-value (p-value) of <0.05 causes us to reject the null hypothesis"),
-                           width=6),
+                           width=4),
                          mainPanel(plotOutput("BinDist"),
-                                   h4("Green bars occur by chance <5% of the time, blue bars occur by chance 95% of the time IF the null hypothesis is true (no paw preference"),
+                                   h4("Green bars occur by chance <5% of the time, blue bars occur by chance 95% of the time IF the null hypothesis is true (no paw preference)"),
                                    h5("Does the number of left boops you recorded fall within the green or the blue?")
-                                   
+
                          )
                 ))))
